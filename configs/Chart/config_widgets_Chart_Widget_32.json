@@ -1,0 +1,98 @@
+{
+  "charts": [
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "description": "",
+      "symbol": {
+        "color": [
+          155,
+          187,
+          89,
+          255
+        ],
+        "width": 2.25,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "webMapLayerId": "Red_Abastecimiento_651",
+      "mode": "feature",
+      "name": "Red_Abastecimiento - Acometidas",
+      "highLightColor": "#ff0000",
+      "types": [
+        {
+          "type": "pie",
+          "display": {
+            "colors": [
+              "#5d9cd3",
+              "#eb7b3a",
+              "#a5a5a5",
+              "#febf29",
+              "#4673c2",
+              "#72ad4c"
+            ],
+            "showDataLabel": true,
+            "showLegend": false
+          }
+        }
+      ],
+      "labelField": "OBJECTID",
+      "valueFields": [
+        "Tipo"
+      ],
+      "sortOrder": {
+        "isLabelAxis": true,
+        "isAsc": true
+      }
+    },
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "description": "",
+      "symbol": {
+        "color": [
+          155,
+          187,
+          89,
+          255
+        ],
+        "width": 2.25,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "webMapLayerId": "Red_Abastecimiento_502",
+      "mode": "feature",
+      "name": "Red_Abastecimiento - Tuberías",
+      "highLightColor": "#ff0000",
+      "types": [
+        {
+          "type": "bar",
+          "display": {
+            "colors": [
+              "#5d9cd3"
+            ],
+            "showHorizontalAxis": true,
+            "showVerticalAxis": true,
+            "showLegend": true
+          }
+        }
+      ],
+      "labelField": "OBJECTID",
+      "valueFields": [
+        "Tipo"
+      ],
+      "sortOrder": {
+        "isLabelAxis": false,
+        "isAsc": true
+      }
+    }
+  ]
+}

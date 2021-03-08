@@ -1,0 +1,110 @@
+{
+  "hideLayersAfterWidgetClosed": true,
+  "labelTasks": "Tareas",
+  "labelResults": "Resultados",
+  "showFilterLabel": true,
+  "criteiraLabel": "Criterios de consulta",
+  "spatialFilterLabel": "Filtros espaciales",
+  "queries": [
+    {
+      "url": "",
+      "name": "Red_Abastecimiento - Válvulas",
+      "icon": {
+        "color": [
+          233,
+          233,
+          110,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSDiamond",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "Estado",
+              "label": "Estado",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeSmallInteger"
+            },
+            "operator": "numberOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": 2
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "Estado = 2",
+            "expr": "Estado = 2"
+          }
+        ],
+        "expr": "Estado = 2",
+        "displaySQL": "Estado = 2"
+      },
+      "showSQL": true,
+      "spatialFilter": {
+        "currentMapExtent": {
+          "default": true
+        },
+        "drawing": null,
+        "useFeatures": null,
+        "fullLayerExtent": null
+      },
+      "popupInfo": {
+        "readFromWebMap": true
+      },
+      "orderByFields": [],
+      "useLayerSymbol": false,
+      "resultsSymbol": {
+        "color": [
+          112,
+          189,
+          155,
+          128
+        ],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSDiamond",
+        "outline": {
+          "color": [
+            0,
+            0,
+            128,
+            255
+          ],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "canModifySymbol": false,
+      "enableExport": true,
+      "defaultExpand": true,
+      "singleResultLayer": true,
+      "webMapLayerId": "Red_Abastecimiento_5315",
+      "customResultName": true
+    }
+  ]
+}
